@@ -28,11 +28,11 @@ namespace ToDoList.Controllers
     }
   }
 }
-//     public ActionResult Create()
-//     {
-//       ViewBag.CategoryId = new SelectList(_db.Categories, "CategoryId", "Name");
-//       return View();
-//     }
+    public ActionResult Create()
+    {
+      ViewBag.CategoryId = new SelectList(_db.Categories, "CategoryId", "Name");
+      return View();
+    }
 
 //     [HttpPost]
 //     public ActionResult Create(Item item)
